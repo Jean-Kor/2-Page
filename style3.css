@@ -1,0 +1,97 @@
+body{
+	background-image: url('background-photos/oldtree.jpg');
+	text-align: center;
+}
+
+h1{
+	height:100px;
+	width:500px;
+	text-align:center;
+	margin-top: auto;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	border:2px solid black;
+	border-radius:12px;
+	box-shadow: 10px 10px 5px black
+	font-size:200px;
+	opacity: 0.6;
+	background-color:#ffffff;
+}
+
+
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: #A8D4AD;
+	opacity:0.9;
+	font-weight: bold;
+}
+
+li{
+	float:left;
+}
+
+li a, dropbtn{
+	display:inline-block;
+	color:black;
+	text-align:center;
+	padding: 14px 120px;
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+	background-color: #5A7D7C;
+}
+
+li.dropdown{
+	display:inline-block;
+}
+
+.dropdown-content{
+	display:none;
+	position:absolute;
+	background-color:#7DC95E;
+	min-width: 120px;
+	z-index:1;
+}
+
+.dropdown-content a{
+	color:black;
+	padding: 12px 120px;
+	display: block;
+	text-align:left;
+}
+
+.dropdown-content a:hover{
+	background-color: #648767;
+}
+
+.dropdown:hover .dropdown-content{
+	display:block;
+}
+
+button{
+	background-color: #A8D4AD;
+	color:black;
+	float:left;
+	padding: 14px 145px;
+	text-align:center;
+	display:inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	opacity:0.9;
+	margin:0;
+	border: none;
+}
+
+button:hover{
+	text-decoration-line: underline;
+	background-color: #648767;
+}
+
+
+#separation{
+	height: 100px;
+}
