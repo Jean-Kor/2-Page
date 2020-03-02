@@ -1,5 +1,5 @@
 body{
-	background-image: url('background-photos/oldtree.jpg');
+	background-image: url('background-photos/tree3.jpg');
 	text-align: center;
 }
 
@@ -76,7 +76,7 @@ button{
 	background-color: #A8D4AD;
 	color:black;
 	float:left;
-	padding: 14px 145px;
+	padding: 14px 120px;
 	text-align:center;
 	display:inline-block;
 	font-size: 16px;

@@ -36,7 +36,7 @@ li a, dropbtn{
 	display:inline-block;
 	color:black;
 	text-align:center;
-	padding: 14px 175px;
+	padding: 14px 120px;
 }
 
 li a:hover, .dropdown:hover .dropbtn{
@@ -57,7 +57,7 @@ li.dropdown{
 
 .dropdown-content a{
 	color:black;
-	padding: 12px 165px;
+	padding: 12px 120px;
 	display: block;
 	text-align:left;
 }
@@ -83,23 +83,27 @@ li.dropdown{
 	width:auto;
 	background-color: #ffffff;
 	opacity: 0.8;
+	display:flex;
+	align-items:center;
+	flex-direction: column;
 }
 
 #welcome{
 	text-align:center;
-	font-size:75px; 
+	font-size:200px; 
 	padding-bottom: 10px;
+	font-weight: bold;
 }
 
 #image1{
-	align-items: center;
+	align-self: auto;
 	margin-left: auto;
 	margin-right: auto;
 	display:block;
 }
 
 #image2{
-	align-items: center;
+	align-self: auto;
 	margin-left: auto;
 	margin-right: auto;
 	display:block;
