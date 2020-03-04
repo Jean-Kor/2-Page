@@ -9,7 +9,7 @@
 
 <body>
 
-	<h1>
+	<h1 id="thing">
         <p>Trees</p>
         <p id = "time"></p>
     </h1>
@@ -61,6 +61,7 @@
             <div id="welcome">
                 <p>TREES!</p>
             </div>
+
             <p>Trees are a wonderful part of our world. Besides shading us from the sunlight, providing us oxygen, and being a source for wood, trees have much more to their appeal. With different sizes and shapes, they create beautiful sceneries. </p>
             <div id="image1">
                 <img src="background-photos/size.gif">
@@ -72,6 +73,26 @@
 
         </div>
 
+            <div id="slideshow">
+                <div class="mySlides">
+                    <div class="numberText">1/2</div>
+                    <img src="slideshow/tree01.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numberText">2/2</div>
+                    <img src="slideshow/tree02.jpg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)"></a>
+                <a class="next" onclick="plusSlides(+1)"></a>
+            </div>
+            <br>
+
+        <div style="text-align:center">
+             <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
 
 
 
