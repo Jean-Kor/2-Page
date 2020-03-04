@@ -119,3 +119,39 @@ p{
 	text-align: center;
 	color:black;
 }
+
+#button1{
+	background-color: white;
+	border: 2px solid  #A8D4AD;
+	padding:15px 20px;
+	text-align:center;
+	text-decoration: none;
+	display:inline-block;
+	font-size:16px;
+	cursor:pointer;
+	border-radius: 12px;
+	transition-duration: 0.4s;
+}
+
+#button2{
+	background-color: white;
+	border: 2px solid  #A8D4AD;
+	padding:15px 20px;
+	text-align:center;
+	text-decoration: none;
+	display:inline-block;
+	font-size:16px;
+	cursor:pointer;
+	border-radius: 12px;
+	transition-duration: 0.4s;
+}
+
+#button1:hover{
+	background-color:#5A7D7C;
+	color:white;
+}
+
+#button2:hover{
+	background-color:#5A7D7C;
+	color:white;
+}
